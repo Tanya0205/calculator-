@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Poppins:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  /* box-sizing: border-box; */
+}
+
+.parent {
+  font-size: 0%;
+}
+
+#attractive {
+  width: 292px;
+  height: 310px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.25px;
+  /* background-color: black; */
+  box-shadow: 0 0 50px #da1f5c;
+  z-index: 2;
+}
+
+#screen {
+  width: 290px;
+  height: 60px;
+  text-align: right;
+  background-color: black;
+  color: white;
+  font-size: 22px;
+}
+/* img {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: blur(3px);
+  /* -webkit-filter: blur(2px); */
+/* } */
+*/ input {
+  grid-column: span 4;
+}
+
+#my {
+  z-index: 4;
+  color: greenyellow;
+  font-size: 25px;
+  padding-left: 20px;
+  background-color: black;
+  padding-bottom: 20px;
+  font-style: italic;
+  font-family: "Courier New", Courier, monospace;
+}
+.btn {
+  height: 50px;
+  width: 73px;
+  margin: 0%;
+  background-color: #da1f5c;
+  text-decoration: none;
+  padding: 0%;
+  font-family: "Grape Nuts", cursive;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+  /* transition: 0.25px; */
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+  box-shadow: 0 0 50px white;
+}
